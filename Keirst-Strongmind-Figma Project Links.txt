@@ -1,0 +1,8 @@
+Figma Presentation:
+https://www.figma.com/deck/984fWoVWb3upDKgCAkJKrI/StongMind-Pizza-Ui?node-id=1-856&t=4DVGfRJhlk34aGAt-1
+
+Figma Designs:
+https://www.figma.com/proto/11qsBNaBvr5Td6GdsMX6Jk/StongMind-UI-project?node-id=4-2&t=4DVGfRJhlk34aGAt-1
+
+GitHub:
+https://github.com/keirstenmachine/StrongMind-CodeUI.git
