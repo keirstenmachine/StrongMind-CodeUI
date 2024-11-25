@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza Builder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>PIZZA</h1>
+    <nav>
+      <a href="#">Dashboard</a>
+      <a href="#">Queue</a>
+      <a href="#">New Order</a>
+    </nav>
+  </header>
+  <main>
+    <section id="size">
+      <h2>Size</h2>
+      <div class="options">
+        <button class="option" data-value="Small">Small (10in)</button>
+        <button class="option" data-value="Medium">Medium (14in)</button>
+        <button class="option" data-value="Large">Large (16in)</button>
+        <button class="option" data-value="X-Large">X-Large (20in)</button>
+      </div>
+    </section>
+    <section id="crust">
+      <h2>Crust</h2>
+      <div class="options">
+        <button class="option" data-value="New York - Hand Tossed">New York - Hand Tossed</button>
+        <button class="option" data-value="Gluten Free - Thin Crust">Gluten Free - Thin Crust</button>
+      </div>
+    </section>
+    <section id="toppings">
+      <h2>Toppings</h2>
+      <div class="topping-list">
+        <!-- Dynamically Populated Toppings -->
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="order-summary">
+      <span id="order-summary-text">Select your pizza options!</span>
+    </div>
+    <button id="make-pizza-button">Make Pizza</button>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
